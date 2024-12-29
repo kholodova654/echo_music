@@ -1,0 +1,505 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #042627;
+}
+
+.container {
+    background-image:url(image/background-01.jpg);
+    height: 976px;
+    background-size: cover;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.menu li {
+    list-style: none;
+    font-family: Bellota Text;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 12px;
+    border: 0;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-right:-1px;
+}
+
+span.menu-item {
+    padding: 5px 36px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: #000; 
+}
+
+.logo {
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+}
+
+.text2 {
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    padding-top: 90px;
+    font-family: Oranienbaum; 
+}
+.bird {
+    display: flex;
+    margin-top: 70px;
+}
+.line {
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+    width: 150px;
+    margin: 30px auto;
+    justify-content: center;
+    display: flex;
+}
+.text {
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    font-family: Oranienbaum;
+}
+.container2 {
+    margin: 100px auto;
+    max-width: 1200px;
+    background-color: #042627;
+}
+.aboutus {
+    font-family: Oranienbaum;
+    display: flex;
+    padding-bottom: 50px;
+    padding-top: 150px;
+    color: white;
+    font-size: 90px;
+}
+.longtext {
+    font-family: Oranienbaum;
+    display: flex;
+    padding-right: 360px;
+    color: white;
+    font-size: 20px;
+    font-family: Bellota Text; 
+    font-weight: lighter;
+}
+.birds {
+    display: flex;
+    margin-top: -450px;
+    margin-left: 930px;
+}
+
+.location {
+    background-color: #042627;
+    padding-top: 100px;
+}
+
+.location-container {
+    background-image: url(image/frames.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 1031px;
+}
+.location-text {
+    display:flex;
+    justify-items: end;
+    width: 593px;
+    height: 384px;
+    justify-content: center;
+    border: 1px solid #fff;
+    flex-direction: column;
+    text-align: center;
+}
+.textl1 {
+    font-family: Oranienbaum;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.textl2 {
+    font-family: Bellota Text;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}
+.button {
+    background-color:rgb(255, 244, 171);
+    border-radius: 15px;
+    list-style: none;
+    font-family: Oranienbaum;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 25px 36px;
+    font-size: 20px;
+    
+}
+.button a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+}
+.concerts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.concerts-text {
+    font-family: Oranienbaum;
+    color: #ffffff;
+    font-size: 100px;
+    text-align: center;
+}
+
+.card {
+    max-width: 460px;
+    height: 710px;
+    background-size: cover;
+    display: flex !important;
+    flex-direction: column;
+}
+
+.c1 {
+    background-image: url(image/1\ card.png);
+}
+ .c2 {
+    background-image: url(image/2\ card.png);
+}
+.c3 {
+    background-image: url(image/3\ card.png);
+} 
+.c4 {
+    background-image: url(image/4\ card.png);
+}
+.c5 {
+    background-image: url(image/5\ card.png);
+}
+.text-c1 {
+    font-family: Oranienbaum;
+    color: black;
+    font-size: 60px;
+    text-align: left;
+    padding: 32px 30px 0 30px;
+}
+.text1-c1 {
+    font-family: Oranienbaum;
+    color: rgba(124, 116, 64, 1);
+    font-size: 20px;
+    text-align: left;
+    padding: 30px 30px 0 30px;
+}
+.text2-c1 {
+    font-family: Bellota Text;
+    color: black;
+    font-size: 22px;
+    text-align: left;
+    padding: 15px 30px 0 30px;
+}
+.text-c3 {
+    font-family: Oranienbaum;
+    color: black;
+    font-size: 32px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.text1-c3 {
+    font-family: Oranienbaum;
+    color: rgba(124, 116, 64, 1);
+    font-size: 10px;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.text2-c3 {
+    font-family: Bellota Text;
+    color: black;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.text-c2 {
+    font-family: Oranienbaum;
+    color: black;
+    font-size: 32px;
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 15px;
+}
+.text1-c2 {
+    font-family: Oranienbaum;
+    color: rgba(124, 116, 64, 1);
+    font-size: 10px;
+    text-align: left;
+    padding-top: 17px;
+    padding-left: 15px;
+}
+.text2-c2 {
+    font-family: Bellota Text;
+    color: black;
+    font-size: 11px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.button-content {
+    margin-right: 8px;
+    margin-top: 300px;
+    text-align: right;
+}
+.button-concerts {
+    background-color: white;
+    border-radius: 15px;
+    list-style: none;
+    font-family: Oranienbaum;
+    padding: 10px 15px;
+    font-size: 20px;
+    display: inline-block;
+}
+.button-concerts a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+}
+.button-concerts-small {
+    background-color: white;
+    border-radius: 8px;
+    list-style: none;
+    font-family: Oranienbaum;
+    margin-left: 199px;
+    margin-right: 8px;
+    margin-top: 193px;
+    padding: 5px 8px;
+    font-size: 10px;
+}
+.button-concerts-small a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+}
+.button-concerts-small-c2 {
+    background-color: white;
+    border-radius: 8px;
+    list-style: none;
+    font-family: Oranienbaum;
+    margin-left: 194px;
+    margin-right: 7px;
+    margin-top: 196px;
+    padding: 5px 8px;
+    font-size: 10px;
+}
+.button-concerts-small-c2 a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+}
+.light {
+    /* margin-left: -2500px;
+    margin-top: -300px; */
+    position: absolute;
+}
+.tickets {
+    background-color: #042627;
+    display: flex;
+    height: 976px;
+    background-image: url(image/line-tickets.png);
+    background-size: cover;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.tickets-h1 {
+    font-family: Oranienbaum;
+    font-size: 100px;
+    text-align: left;
+    color: #fff;
+    padding-left: 150px;
+    padding-top: 130px;
+    padding-right: 400px;
+}
+.alltickets {
+    display: flex;
+    justify-content: space-between;
+}
+.ticket {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height:500px;
+    flex: 1;
+}
+.ticket a {
+    text-decoration: none;
+    color: #000;
+    font-family: Oranienbaum;
+    font-size: 25px;
+}
+.button-ticket {
+    background-color: rgba(251, 245, 187, 1);
+    border-radius: 18px;
+    list-style: none;
+    font-family: Oranienbaum;
+    padding: 20px 82px;
+    font-size: 20px;
+    max-width: 250px;
+    margin: 0 auto;
+}
+.button-tickets a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 20px;
+}
+
+.price {
+    justify-content: center;
+    color: #fff;
+    font-family:Oranienbaum;
+    display: flex;
+    height: 110px;
+    font-size: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.standart .price {
+    background-image: url(image/birds-price.png);
+}
+
+.comfort .price {
+    background-image: url(image/birds-tickets2.png);
+}
+.lux .price {
+    background-image: url(image/birds-price.png);
+}
+
+.description {
+    text-align: left;
+    font-family: Bellota Text;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.2;
+    max-width: 250px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.ground {
+    height: 250px;
+    background-color: #042627;
+}
+.ground2 {
+    background-image: url(image/ground.jpg);
+    height: 500px;
+    background-size: cover;
+    padding-top: 200px;
+}
+.groundmenu li {
+    padding: 5px 36px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    font-family: Bellota Text;
+}
+.groundmenu {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.groundmenu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px; 
+}
+.logog {
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+    background-color: #042627;
+}
+
+.slick-arrow {
+    text-indent: -9999px;
+    border: 0;
+    width: 0;
+    height: 0;
+}
+
+.slick-prev{
+    background-image: url(images/arrow_left.png);
+    background-repeat: no-repeat;
+    background-position: 45% 50%;
+}
+
+.slick-next{
+    background-image: url(images/arrow_right.png);
+    background-repeat: no-repeat;
+    background-position: 55% 50%;
+}
+
+.slick-slide {
+    opacity: 0;
+}
+
+.slick-slide {
+    transform: scale(0.7);
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-center {
+    transform: scale(1);
+    animation: animation 0.5s forwards;
+}
+
+@keyframes animation {
+    0% {
+        transform: scale(0.7);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
